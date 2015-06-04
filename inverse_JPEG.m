@@ -1,8 +1,5 @@
 function out = inverse_JPEG(code,dict)
 
-%---------------------------------
-%inverse JPEG---------------------
-%---------------------------------
 dsig = huffmandeco(code,dict);
 
 JQ = reshape(dsig,256,[]);
